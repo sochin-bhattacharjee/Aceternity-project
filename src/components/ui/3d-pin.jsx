@@ -1,8 +1,7 @@
-
-import { useState } from "react";
+import  { useState } from "react";
 import { motion } from "framer-motion";
-import { cn } from "../../utils/cn";
-import {Link} from "react-router-dom";
+import { cn } from '../../lib/utils';
+import { Link } from "react-router-dom";
 
 export const PinContainer = ({
   children,
@@ -25,7 +24,7 @@ export const PinContainer = ({
       className={cn("relative group/pin z-50  cursor-pointer", containerClassName)}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      href={href || "/"}>
+      to={href || "/"}>
       <div
         style={{
           perspective: "1000px",

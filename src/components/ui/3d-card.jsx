@@ -1,6 +1,6 @@
 // 3d-card.jsx
-import React, { createContext, useState, useContext, useRef, useEffect } from 'react';
-import { cn } from '../../utils/cn';
+import { createContext, useState, useContext, useRef, useEffect } from 'react';
+import { cn } from '../../lib/utils';
 
 // Create context
 const MouseEnterContext = createContext();

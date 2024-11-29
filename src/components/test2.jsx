@@ -1,5 +1,5 @@
-import { PinContainer } from "./components/ui/3d-pin";
 
+import { PinContainer } from './ui/3d-pin';
 export const AnimatedPinDemo = () => {
   return (
     <div className="h-[40rem] w-full flex items-center justify-center">
