@@ -1,5 +1,4 @@
 // test.jsx
-import React from 'react';
 import { MouseEnterProvider } from './components/ui/3d-card';
 import { CardContainer, CardBody, CardItem } from './components/ui/3d-card';
 

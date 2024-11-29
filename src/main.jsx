@@ -9,7 +9,8 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App></App>,
+    element: <App/>,
+
   },
 ]);
 createRoot(document.getElementById('root')).render(

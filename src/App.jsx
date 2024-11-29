@@ -1,7 +1,11 @@
 import './App.css'
 import { ThreeDCardDemo } from './test'
-import { AnimatedPinDemo } from './test2';
-import { AnimatedTestimonialsDemo } from './test3';
+
+import { AnimatedPinDemo } from './components/test2';
+import { FloatingDockDemo } from './components/float-nav';
+import { CardHoverEffectDemo } from './components/hoverCard';
+import { AuroraBackgroundDemo } from './components/auroraBg';
+
 
 
 function App() {
@@ -10,8 +14,12 @@ function App() {
     <div>
       <h1 className='text-4xl'>Hello</h1>
       <ThreeDCardDemo />
-      <AnimatedPinDemo></AnimatedPinDemo>
-      <AnimatedTestimonialsDemo></AnimatedTestimonialsDemo>
+
+      <FloatingDockDemo/>
+      <AnimatedPinDemo />
+      <CardHoverEffectDemo/>
+      <AuroraBackgroundDemo/>
+
     </div>
   )
 }
